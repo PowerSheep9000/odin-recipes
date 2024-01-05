@@ -1,0 +1,27 @@
+/* styles.css */
+
+h1 {
+    color: blueviolet;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+p {
+    color: teal;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+
+.indexList {
+    color: khaki;
+    font-size: 20px;
+}
+
+.subList {
+    color: teal;
+    font-size: 20px;
+}
