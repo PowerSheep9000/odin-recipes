@@ -1,5 +1,9 @@
 /* styles.css */
 
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: blueviolet;
     font-family: Arial, sans-serif;
@@ -16,9 +20,34 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
 }
 
+.card {
+    width: 800px;
+    height: 170px;
+    margin: 16px auto;
+    background-color: rgb(219, 209, 209);
+    text-align: center;
+}
+
 .indexList {
-    color: khaki;
+    color: rgb(67, 69, 228);
     font-size: 20px;
+    width: 300px;
+    margin-left: 235px;
+    list-style: georgian;
+}
+
+.indexList li {
+    margin: 8px;
+    border: 2px dotted rgb(67, 69, 228);
+}
+
+.indexList li :hover{
+    background-color: rgb(148, 175, 233);
+}
+
+.indexHeader {
+    background-color: brown;
+    color: blanchedalmond;
 }
 
 .subList {
